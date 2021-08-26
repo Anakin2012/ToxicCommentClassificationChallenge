@@ -24,8 +24,8 @@ Podaci su dostupni na adresi: https://www.kaggle.com/c/jigsaw-toxic-comment-clas
 
 Projekat je podeljen na više jupyter sveski radi bolje organizacije i lakšeg pregledanja: 
 
-1. 01_Analiza_priprema_podataka.ipynb - u ovoj svesci odrađeno je učitavanje podataka, osnovne analize skupa (vizuelni prikazi podataka i sl.), a zatim i priprema teksta - izbacivanje nepotrebnih karaktera, reči koje nemaju relevatno značenje i stemovanje. N
-2. 02_
+- **01_Analiza_priprema_podataka.ipynb** - u ovoj svesci odrađeno je učitavanje podataka, osnovne analize skupa (vizuelni prikazi podataka i sl.), a zatim i priprema teksta - izbacivanje nepotrebnih karaktera, reči koje nemaju relevatno značenje i normalizacija. Na kraju je uradjeno balansiranje podataka, tj. izbacivanje velike količine podataka većinske klase.
+- **02_Klasicni_modeli** - urađeno je izdvajanje atributa
 
 ### Literatura
 
