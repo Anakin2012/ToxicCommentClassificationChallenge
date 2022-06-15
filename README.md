@@ -1,6 +1,6 @@
 # ToxicCommentClassificationChallenge
 
-#### Autor:  Ana Petrović 1073/2020
+### Autor:  Ana Petrović 1073/2020
 
 
 ### Zadatak
