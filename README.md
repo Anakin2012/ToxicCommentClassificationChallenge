@@ -25,12 +25,12 @@ Podaci su dostupni na adresi: https://www.kaggle.com/c/jigsaw-toxic-comment-clas
 
 Projekat je podeljen na više jupyter sveski radi bolje organizacije i lakšeg pregledanja: 
 
-- **01_Analiza_podataka.ipynb** - u ovoj svesci odrađeno je učitavanje podataka, osnovne analize skupa (vizuelni prikazi podataka i sl.), a zatim i priprema teksta - izbacivanje nepotrebnih karaktera, reči koje nemaju relevatno značenje i normalizacija. Na kraju je uradjeno balansiranje podataka, tj. izbacivanje velike količine podataka većinske klase.
+- **01_AnalizaIPripremaPodataka.ipynb** - u ovoj svesci odrađeno je učitavanje podataka, osnovne analize skupa (vizuelni prikazi podataka i sl.), a zatim i priprema teksta - izbacivanje nepotrebnih karaktera, reči koje nemaju relevatno značenje itd. 
 
 
 ### Literatura
 https://towardsdatascience.com/journey-to-the-center-of-multi-label-classification-384c40229bff
-
+https://www.analyticsvidhya.com/blog/2020/04/beginners-guide-exploratory-data-analysis-text-data/
 
 ### Paketi 
 
