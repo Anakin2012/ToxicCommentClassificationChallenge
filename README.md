@@ -4,9 +4,10 @@
 
 
 ### Zadatak
-Cilj teme Toxic Comments Classification je da se razvije klasifikacioni model koji može da razvrsta tekstualne komentare prema svojoj uvredljivosti/toksičnosti. U pitanju je višeklasna višelabelarna klasifikacija. Zadatak je svrstati komentare u odgovarajuće kategorije, s tim da komentar može pripadati i više od jedne kategorije. Potrebno je obučiti model koji je sposoban da prepozna različite vrste toksičnosti kao što su pretnje, nepristojni iskazi, uvrede, i mržnja zasnovana na identitetu.
+Cilj teme Toxic Comments Classification je da se razvije klasifikacioni model koji može da razvrsta tekstualne komentare prema svojoj uvredljivosti/toksičnosti. U pitanju je višeklasna višelabelarna klasifikacija. Zadatak je svrstati komentare u odgovarajuće kategorije, s tim da komentar može pripadati i više od jedne kategorije. Potrebno je obučiti model koji je sposoban da prepozna različite vrste toksičnosti kao što su pretnje, nepristojni iskazi, uvrede, i mržnja zasnovana na identitetu. 
+Zbog velike nebalansiranosti u podacima, problem je podeljen na dve klasifikacije - binarnu i multilabelarnu.
 
-Uz detaljnu analizu skupa podataka, odabrana su dva modela zasnovana na neuronskim mrežama, od kojih jedan obavlja binarnu klasifikaciju na toksične i netoksične komentare, a drugi višelabelarnu klasifikaciju toksičnih podataka. Na kraju je određena opsežna evaluacija skupa podataka.
+Uz detaljnu analizu skupa podataka, kao i pripremu teksta na osnovu Glove vektorskih reprezentacija, odabrana su dva modela zasnovana na konvolutivnim neuronskim mrežama, od kojih jedan obavlja binarnu klasifikaciju na toksične i netoksične komentare, a drugi višelabelarnu klasifikaciju toksičnih podataka. Modeli su na kraju upoređeni i određena je opsežna evaluacija skupa podataka.
 
 ### Podaci
 
@@ -26,7 +27,10 @@ Podaci su dostupni na adresi: https://www.kaggle.com/c/jigsaw-toxic-comment-clas
 Projekat je podeljen na više jupyter sveski radi bolje organizacije i lakšeg pregledanja: 
 
 - **01_AnalizaIPripremaPodataka.ipynb** - u ovoj svesci odrađeno je učitavanje podataka, osnovne analize skupa (vizuelni prikazi podataka i sl.), a zatim i priprema teksta - izbacivanje nepotrebnih karaktera, reči koje nemaju relevatno značenje itd. 
-- **02_BinarnaIViselabelarna klasifikacija** 
+- **02_BinarnaKlasifikacija** - Model koji vrši binarnu klasifikaciju na toksične i netoksične komentare. Odrađena je unakrsna validacija za određivanje optimalnih hiperparametara, zatim obučen najbolji model i na kraju evaluiran na test skupu.
+- **03_ViselabelarnaKlasifikacija** - Model koji vrši  višelabelarnu klasifikaciju samo dela podataka koji su označeni kao toksični. Obučen je model sa istim hiperparametrima kao prethodni, i zatim evaluiran na test skupu.
+- **SharedFunctions** - Sveska koja sadrži sve funkcije koje se koriste u sveskama 02 i 03 
+
 
 ### Literatura
 https://towardsdatascience.com/journey-to-the-center-of-multi-label-classification-384c40229bff
