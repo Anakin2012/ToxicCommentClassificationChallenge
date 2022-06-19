@@ -7,7 +7,7 @@
 Cilj teme Toxic Comments Classification je da se razvije klasifikacioni model koji može da razvrsta tekstualne komentare prema svojoj uvredljivosti/toksičnosti. U pitanju je višeklasna višelabelarna klasifikacija. Zadatak je svrstati komentare u odgovarajuće kategorije, s tim da komentar može pripadati i više od jedne kategorije. Potrebno je obučiti model koji je sposoban da prepozna različite vrste toksičnosti kao što su pretnje, nepristojni iskazi, uvrede, i mržnja zasnovana na identitetu. 
 Zbog velike nebalansiranosti u podacima, problem je podeljen na dve klasifikacije - binarnu i multilabelarnu.
 
-Uz detaljnu analizu skupa podataka, kao i pripremu teksta na osnovu Glove vektorskih reprezentacija, odabrana su dva modela zasnovana na konvolutivnim neuronskim mrežama, od kojih jedan obavlja binarnu klasifikaciju na toksične i netoksične komentare, a drugi višelabelarnu klasifikaciju toksičnih podataka. Modeli su na kraju upoređeni i određena je opsežna evaluacija skupa podataka.
+Uz detaljnu analizu skupa podataka, kao i pripremu teksta na osnovu Glove vektorskih reprezentacija, odabran je model zasnovan na konvolutivnim neuronskim mrežama, primenjen na binarnu klasifikaciju na toksične i netoksične komentare, a zatim za višelabelarnu klasifikaciju toksičnih podataka. Modeli su na kraju upoređeni,
 
 ### Podaci
 
