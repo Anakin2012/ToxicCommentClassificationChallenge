@@ -22,7 +22,7 @@ Data je velika količina komentara sa stranice Vikipedije, koje su ljudski koris
 
 
 Podaci su dostupni na adresi: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/overview
-
+GloVe: https://nlp.stanford.edu/projects/glove/ (korišćeni su vektori dužine 100 -  glove.6B.100d.txt)
 
 Projekat je podeljen na više jupyter sveski radi bolje organizacije i lakšeg pregledanja: 
 
