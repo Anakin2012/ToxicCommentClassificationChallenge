@@ -36,6 +36,7 @@ Projekat je podeljen na više jupyter sveski radi bolje organizacije i lakšeg p
 https://towardsdatascience.com/journey-to-the-center-of-multi-label-classification-384c40229bff
 https://www.analyticsvidhya.com/blog/2020/04/beginners-guide-exploratory-data-analysis-text-data/
 https://lena-voita.github.io/nlp_course/models/convolutional.html
+https://developers.google.com/machine-learning/guides/text-classification/step-2-5
 
 ### Paketi 
 
