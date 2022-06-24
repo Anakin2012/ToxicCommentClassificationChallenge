@@ -21,9 +21,9 @@ Data je velika količina komentara sa stranice Vikipedije, koje su ljudski koris
 - identity_hate
 
 
-Podaci su dostupni na adresi: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/overview
-GloVe: https://nlp.stanford.edu/projects/glove/ (korišćeni su vektori dužine 100 -  glove.6B.100d.txt)
-nlpaug: https://github.com/makcedward/nlpaug/blob/master/example/textual_augmenter.ipynb
+- Podaci su dostupni na adresi: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/overview
+- GloVe: https://nlp.stanford.edu/projects/glove/ (korišćeni su vektori dužine 100 -  glove.6B.100d.txt)
+- nlpaug: https://github.com/makcedward/nlpaug/blob/master/example/textual_augmenter.ipynb
 
 Projekat je podeljen na više jupyter sveski radi bolje organizacije i lakšeg pregledanja: 
 
@@ -31,14 +31,20 @@ Projekat je podeljen na više jupyter sveski radi bolje organizacije i lakšeg p
 - **02_BinarnaKlasifikacija** - Model koji vrši binarnu klasifikaciju na toksične i netoksične komentare. Odrađena je unakrsna validacija za određivanje optimalnih hiperparametara, zatim obučen najbolji model i na kraju evaluiran na test skupu.
 - **03_ViselabelarnaKlasifikacijaSaTezinama** - Model koji vrši  višelabelarnu klasifikaciju samo dela podataka koji su označeni kao toksični. Za balansiranje korišćene su težine.
 **04_ViselabelarnaKlasifikacijaAugmentacija** - Model koji vrši višelabelarnu klasifikaciju toksičnih komentara, a za balansiranje klasa je korišćena augmentacija podataka pomoću nlpaug biblioteke
-- **SharedFunctions** - Sveska koja sadrži sve funkcije koje se koriste u sveskama 02 i 03 
+**05_Undesample** - Model koji vrši višelabelarnu klasifikaciju toksičnih komentara, ali najzastupljenija klasa je izbačena iz skupa.
+**06_Uporedjivanje modela** - Uporedjuju se rezultati predvidjanja prethodna tri modela
+- **SharedFunctions** - Sveska koja sadrži sve funkcije koje se koriste u sveskama sa modelima
 
 
 ### Literatura
 https://towardsdatascience.com/journey-to-the-center-of-multi-label-classification-384c40229bff
+
 https://www.analyticsvidhya.com/blog/2020/04/beginners-guide-exploratory-data-analysis-text-data/
+
 https://lena-voita.github.io/nlp_course/models/convolutional.html
+
 https://developers.google.com/machine-learning/guides/text-classification/step-2-5
+
 https://neptune.ai/blog/data-augmentation-nlp
 
 ### Paketi 
