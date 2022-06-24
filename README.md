@@ -31,10 +31,10 @@ Projekat je podeljen na više jupyter sveski radi bolje organizacije i lakšeg p
 - **01_AnalizaIPripremaPodataka.ipynb** - u ovoj svesci odrađeno je učitavanje podataka, osnovne analize skupa (vizuelni prikazi podataka i sl.), a zatim i priprema teksta - izbacivanje nepotrebnih karaktera, reči koje nemaju relevatno značenje itd. 
 - **02_BinarnaKlasifikacija** - Model koji vrši binarnu klasifikaciju na toksične i netoksične komentare. Odrađena je unakrsna validacija za određivanje optimalnih hiperparametara, zatim obučen najbolji model i na kraju evaluiran na test skupu.
 - **03_ViselabelarnaKlasifikacijaSaTezinama** - Model koji vrši  višelabelarnu klasifikaciju samo dela podataka koji su označeni kao toksični. Za balansiranje korišćene su težine.
-- **04_ViselabelarnaKlasifikacijaAugmentacija** - Model koji vrši višelabelarnu klasifikaciju toksičnih komentara, a za balansiranje klasa je korišćena augmentacija podataka pomoću nlpaug biblioteke
+- **04_ViselabelarnaKlasifikacijaAugmentacija** - Model koji vrši višelabelarnu klasifikaciju toksičnih komentara, a za balansiranje klasa je korišćena augmentacija podataka pomoću nlpaug biblioteke.
 - **05_Undesample** - Model koji vrši višelabelarnu klasifikaciju toksičnih komentara, ali najzastupljenija klasa je izbačena iz skupa.
-- **06_Uporedjivanje modela** - Uporedjuju se rezultati predvidjanja prethodna tri modela
-- **SharedFunctions** - Sveska koja sadrži sve funkcije koje se koriste u sveskama sa modelima
+- **06_UpoređivanjeMultiModela** - Upoređuju se rezultati predviđanja prethodna tri modela multilabel klasifikacije.
+- **SharedFunctions** - Sveska koja sadrži sve funkcije koje se koriste u sveskama sa modelima.
 
 
 ### Literatura
